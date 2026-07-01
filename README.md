@@ -1,3 +1,16 @@
+<img src="./assets/banner.svg" alt="Negotiation War Room Skill Banner" width="100%" />
+
+![License](https://img.shields.io/badge/license-MIT-green)
+![Version](https://img.shields.io/badge/version-v0.1.0-blue)
+![Language](https://img.shields.io/badge/language-%E4%B8%AD%E6%96%87-red)
+![Agent Skill](https://img.shields.io/badge/Agent-Skill-purple)
+![Prompt Engineering](https://img.shields.io/badge/Prompt-Engineering-orange)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+![Made for ChatGPT](https://img.shields.io/badge/Made%20for-ChatGPT-10a37f)
+![Made for Claude](https://img.shields.io/badge/Made%20for-Claude-black)
+![Made for Codex](https://img.shields.io/badge/Made%20for-Codex-blue)
+![GitHub stars](https://img.shields.io/github/stars/coinluu/negotiation-war-room-skill?style=social)
+
 # negotiation-war-room-skill
 
 中文名：**动态谈判作战参谋 Skill**
@@ -5,6 +18,12 @@
 ## 一句话介绍
 
 一个面向 ChatGPT、Claude、Cursor、Codex 等 Agent 的中文谈判决策 Skill，帮助用户把复杂谈判背景转化为结构化策略、可选方案、沟通话术、风险审查和复盘动作。
+
+## 为什么需要这个 Skill
+
+很多谈判卡住，并不是因为用户不会“说漂亮话”，而是因为没有先判断清楚：谈判类型是什么、自己有没有替代方案、对方真正压力在哪里、哪些让步可以交换、哪些底线不能暴露。
+
+这个 Skill 把这些判断变成 Agent 可执行的流程，让用户从“临场凭感觉回复”转向“结构化准备、可复制沟通、可复盘优化”。
 
 ## 项目定位
 
@@ -28,6 +47,14 @@
 - **风险审查**：发送前检查底线暴露、情绪化、法律风险、无条件让步和留痕问题。
 - **谈后确认**：生成可复制的会议纪要、微信确认、邮件确认文本。
 - **复盘优化**：根据对方新反馈更新策略，而不是一轮话术用到底。
+
+## 系统架构
+
+<img src="./assets/architecture.svg" alt="Skill Architecture" width="100%" />
+
+## 工作流
+
+<img src="./assets/workflow.svg" alt="Negotiation Workflow" width="100%" />
 
 ## 适用场景
 
